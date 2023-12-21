@@ -1,0 +1,323 @@
+@media (max-width: 2500px) {
+  .container-principal {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .container-cabecalho {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 10px;
+      gap: 50px;
+    }
+    
+    .imagem-logo {
+      width: 50%;
+      margin-left: 30px;
+    }
+    
+    .navegacao {
+      width: 100%;
+      background-color: #006b2c;
+    }
+    
+    .navbar {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      justify-content: center;
+      color: white;
+      z-index: 1;
+      font-weight: 800;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      position: relative;
+    }
+    
+    .navbar li {
+      font-size: 17px;
+    }
+    
+    .img-logo {
+      padding: 5px;
+      width: 50%;
+    }
+    
+    .imagem-logo img {
+      display: flex;
+      align-items: center;
+      width: 90px;
+    }
+    
+    .icone-cel {
+      color: #f0e60a;
+      border: solid 2px;
+      border-radius: 25px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .atendimentos-cabecalho {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #004521;
+    }
+    
+    .tip-atend-unida {
+      font-weight: 500;
+    }
+    .tip-atend-uni {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .tip-atend-uni label {
+      font-weight: 700;
+      font-size: 12px;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+    
+    .tip-atend-uni h6 {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+    }
+    
+    .tip-atend-uni2 {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    
+    .tip-atend-uni2 label {
+      font-weight: 700;
+      font-size: 12px;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+    
+    .tip-atend-uni2 h6 {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+    }
+    
+    .tip-atend-unida label {
+      font-weight: 700;
+      font-size: 12px;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    }
+    
+    .tip-atend-unida h6 {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-weight: 500;
+    }
+    
+    .perso-bot {
+      background-color: #f0e60a;
+      color: white;
+      padding: 50px;
+      position: static;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 20px;
+      padding-top: 50px;
+      padding-bottom: 65px;
+      z-index: 3;
+    }
+    
+    .menu-mobile {
+      width: 100%;
+      gap: 30px;
+      display: none;
+    }
+  }
+@media (max-width: 1500px) {
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .container-cabecalho {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 50px;
+  }
+  
+  .imagem-logo {
+    width: 50%;
+    margin-left: 30px;
+  }
+  
+  .navegacao {
+    width: 100%;
+    background-color: #006b2c;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: relative;
+  }
+  
+  .navbar li {
+    font-size: 10px;
+  }
+  
+  .img-logo {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  .imagem-logo img {
+    display: flex;
+    align-items: center;
+    width: 70px;
+  }
+  
+  .icone-cel {
+    color: #f0e60a;
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .atendimentos-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #004521;
+  }
+  
+  .tip-atend-unida {
+    font-weight: 500;
+  }
+  .tip-atend-uni {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tip-atend-uni label {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+  
+  .tip-atend-uni h6 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  
+  .tip-atend-uni2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .tip-atend-uni2 label {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+  
+  .tip-atend-uni2 h6 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  
+  .tip-atend-unida label {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+  
+  .tip-atend-unida h6 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  
+  .perso-bot {
+    background-color: #f0e60a;
+    color: white;
+    padding: 50px;
+    position: static;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 24px;
+    padding-bottom: 40px;
+    z-index: 3;
+  }
+  
+  .menu-mobile {
+    width: 100%;
+    gap: 30px;
+    display: none;
+  }
+}
+  @media (max-width: 768px) {
+    .atendimentos-cabecalho {
+      display: none;
+    }
+  
+    .navegacao {
+      display: none;
+    }
+  
+    .menu-mobile {
+      width: 100%;
+      display: flex;
+    }
+  
+    .container-principal {
+      display: flex;
+      align-items: center;
+    }
+    .container-cabecalho {
+      display: flex;
+      align-items: ce;
+    }
+  
+    .imagem-logo {
+      display: flex;
+      align-items: center;
+      width: 70%;
+    }
+  
+    .menu-mobile {
+      display: flex;
+      padding: 10px;
+    }
+  
+    .menu-mobile button {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #006b2c;
+      color: white;
+      border: none;
+      outline: none;
+    }
+  
+    .menu-mobile {
+      font-weight: 700;
+      font-size: 12px;
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      color: #006b2c;
+    }
+  }
+  

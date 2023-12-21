@@ -1,0 +1,1076 @@
+a {
+  color: white;
+}
+@media (max-width: 2500px) {
+  .each-slide-effect div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .slide {
+    display: none;
+    width: 100%;
+  }
+
+  .slide2 {
+    display: none;
+  }
+
+  /* home.css */
+  .image-container {
+    width: 100%;
+    /* Defina a largura desejada para as imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Cor de fundo das imagens */
+  }
+
+  .image-container img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    object-fit: cover;
+    /* Redimensiona a imagem para preencher o contêiner mantendo a proporção */
+  }
+
+  .duvida-mobile {
+    display: none;
+  }
+
+  .three-option {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    text-align: center;
+    padding: 80px;
+    color: #006a32;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .option-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    height: 303px;
+  }
+
+  .option-icons label {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    width: 100%;
+    color: white;
+  }
+
+  .option-icons p {
+    font-weight: 600;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  .option-icons button {
+    border-radius: 5px;
+    background-color: white;
+    color: #006a32;
+    border: none;
+    width: 50%;
+    outline: none;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .plano-home {
+    background-color: #006a32;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .plano-home h1 {
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+  }
+
+  .plano-home label {
+    color: white;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .option-icons {
+    padding: 50px;
+    background-color: #006a32;
+    border-radius: 10px;
+  }
+
+  .tipos-plano-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .luxo-home {
+    background-color: #f0e60a;
+    color: #006a32;
+    padding: 25px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .luxo-home h3 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .plano-luxo-home {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .plano-luxo-home label {
+    color: black;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .adquirir-plano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .adquirir-plano button {
+    background-color: #f0e60a;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    width: 10%;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .plano-luxo-home2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .plano-luxo-home2 label {
+    color: black;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .adquirir-plano2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .adquirir-plano2 button {
+    background-color: #f0e60a;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    width: 10%;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .luxo-home2 {
+    background-color: #f0e60a;
+    color: #006a32;
+    padding: 25px;
+    padding-left: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+  }
+
+  .luxo-home2 h3 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tam-luxo {
+    width: 30%;
+  }
+
+  .associado-pax {
+    background-image: url("../../imagens/background03.svg");
+    background-position: center;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .imagem-associado {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagem-associado img {
+    width: 70%;
+
+    border-radius: 35px;
+  }
+
+  .title-associado {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-associado h1 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #006a32;
+  }
+
+  .title-associado label {
+    margin-top: 10px;
+    margin-top: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: #006a32;
+    text-align: justify;
+  }
+
+  .icones-van-asso {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .icones-van-asso label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .duvidai-img {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .duvidai-img img {
+    width: 50%;
+  }
+
+  .duvida-info {
+    margin-left: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .duvida-info h1 {
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .slide-ultrawide{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .duvida-info label {
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .duvida-info button {
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #006a32;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .duvida {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #006a32;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .slide2 {
+    display: none;
+  }
+
+  .imagem-associado2 {
+    display: none;
+  }
+
+  .slide3 {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  .slider-ultrawide{
+    display: none;
+  }
+
+  .each-slide-effect div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  }
+
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .slide2 {
+    display: none;
+  }
+
+  /* home.css */
+  .image-container {
+    width: 100%;
+    /* Defina a largura desejada para as imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Cor de fundo das imagens */
+  }
+
+  .image-container img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    object-fit: cover;
+    /* Redimensiona a imagem para preencher o contêiner mantendo a proporção */
+  }
+
+  .duvida-mobile {
+    display: none;
+  }
+
+  .three-option {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    text-align: center;
+    padding: 80px;
+    color: #006a32;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .option-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    height: 303px;
+  }
+
+  .option-icons label {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+  }
+
+  .option-icons p {
+    font-weight: 600;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+
+  .option-icons button {
+    border-radius: 5px;
+    background-color: white;
+    color: #006a32;
+    border: none;
+    width: 60%;
+    outline: none;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding: 7px;
+  }
+
+  .plano-home {
+    background-color: #006a32;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .plano-home h1 {
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .plano-home label {
+    color: white;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .option-icons {
+    padding: 50px;
+    background-color: #006a32;
+    border-radius: 10px;
+  }
+
+  .tipos-plano-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .luxo-home {
+    background-color: #f0e60a;
+    color: #006a32;
+    padding: 25px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .luxo-home h3 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .plano-luxo-home {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .plano-luxo-home label {
+    color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .adquirir-plano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .adquirir-plano button {
+    background-color: #f0e60a;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .plano-luxo-home2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .plano-luxo-home2 label {
+    color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .adquirir-plano2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .adquirir-plano2 button {
+    background-color: #f0e60a;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .luxo-home2 {
+    background-color: #f0e60a;
+    color: #006a32;
+    padding: 25px;
+    padding-left: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+  }
+
+  .luxo-home2 h3 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tam-luxo {
+    width: 30%;
+  }
+
+  .associado-pax {
+    background-image: url("../../imagens/background03.svg");
+    background-position: center;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .imagem-associado {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagem-associado img {
+    width: 70%;
+
+    border-radius: 35px;
+  }
+
+  .title-associado {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-associado h1 {
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #006a32;
+  }
+
+  .title-associado label {
+    margin-top: 10px;
+    margin-top: 20px;
+    color: #006a32;
+    width: 80%;
+    text-align: justify;
+  }
+
+  .icones-van-asso {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .icones-van-asso label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .duvidai-img {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .duvidai-img img {
+    width: 50%;
+  }
+
+  .duvida-info {
+    margin-left: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .duvida-info h1 {
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .duvida-info label {
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .duvida-info button {
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #006a32;
+    border: none;
+    outline: none;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .duvida {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #006a32;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .slide2 {
+    display: none;
+  }
+
+  .imagem-associado2 {
+    display: none;
+  }
+
+  .slide3 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .option-icons button{
+    font-size: 13px;
+  }
+
+  .adquirir-plano button{
+    width: 30%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .plano-home {
+    padding: 50px;
+    padding-top: 100px;
+  }
+  .plano-home h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .slide {
+    display: none;
+  }
+
+  .slide2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .slide2 img {
+    width: 100%;
+  }
+
+  .slide2-pax {
+    padding: 40px;
+    text-align: center;
+    color: #006a32;
+  }
+
+  .slide2-pax h1 {
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+  .imagem-convenio {
+    width: 100%;
+  }
+
+  .imagem-convenio img {
+    width: 100%;
+  }
+
+  .conteudo-plano-pet {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slide2-pax label {
+    padding-top: 15px;
+    font-weight: 600;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .slide3-pax {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: #006a32;
+  }
+
+  .imagem-espaco-home img {
+    width: 100%;
+  }
+
+  .slide3-pax h1 {
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+  .slide3-pax label {
+    padding-top: 15px;
+    font-weight: 600;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .button-home button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #f0e60a;
+    color: #006a32;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+
+  .button-home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .slide2 {
+    background-color: #e2dddf;
+  }
+
+  .convenio-pet {
+    padding: 0px;
+  }
+
+  .imagem-convenio {
+    width: 100%;
+  }
+
+  .image-container2 {
+    width: 20%;
+    /* Defina a largura desejada para as imagens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    /* Cor de fundo das imagens */
+  }
+
+  .image-container2 img {
+    max-width: 50%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 50%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    object-fit: cover;
+    /* Redimensiona a imagem para preencher o contêiner mantendo a proporção */
+  }
+
+  .each-slide-effect2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 10%;
+  }
+
+  .each-slide-effect2 span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+    width: 10%;
+  }
+
+  .three-option {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .tipos-plano-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tam-luxo {
+    width: 80%;
+  }
+
+  .associado-pax {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .luxo-home2 h3 {
+    width: 100%;
+  }
+
+  .imagem-associado2 {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .imagem-associado2 {
+    width: 100%;
+  }
+
+  .imagem-associado2 img {
+    width: 100%;
+  }
+
+  .title-associado {
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .luxo-home2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .imagem-associado img {
+    width: 100%;
+  }
+
+  .title-associado {
+    margin-bottom: 50px;
+  }
+  .imagem-associado {
+    display: none;
+  }
+
+  .title-associado h1 {
+    font-size: 30px;
+  }
+
+  .duvida {
+    display: none;
+  }
+
+  .duvida-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #006a32;
+    padding-top: 50px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .duvida-info {
+    width: 80%;
+  }
+
+  .duvida-info h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .duvida-info button {
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .duvida-info label {
+    text-align: center;
+  }
+
+  .duvidai-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .duvidai-img img {
+    width: 100%;
+  }
+
+  .option-icons button{
+    font-size: 13px;
+  }
+
+  .adquirir-plano button{
+    width: 40%;
+  }
+
+  @media (max-width: 2400px) {
+    .image-container {
+      width: 100%;
+    }
+
+    .image-container img {
+      width: 100%;
+    }
+  }
+}

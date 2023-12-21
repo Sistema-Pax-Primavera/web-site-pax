@@ -1,0 +1,588 @@
+@media (max-width: 2500px) {
+  .container-pet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../imagens/imagem17.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: 100%;
+    height: 500px;
+    padding: 100px;
+  }
+
+  .convenio-pet {
+    padding: 100px;
+    background-color: #e2dddf;
+    background-position: center;
+  }
+
+  .imagem-convenio img {
+    width: 40%;
+  }
+
+  .title-pet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .title-pet h1 {
+    color: #006b2c;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-top: 70px;
+  }
+
+  .conteudo-plano-pet2 {
+    padding-left: 400px;
+  }
+
+  .convenio-pet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("../../imagens/imagem08.png");
+    background-repeat: no-repeat;
+    background-image: 100%;
+    height: 600px;
+  }
+
+  .conteudo-plano-pet {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-convenio {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+  }
+
+  .imagem-convenio img {
+    width: 40%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 35px;
+  }
+
+  .imagem-convenio2 img {
+    width: 88%;
+    display: flex;
+    padding-top: 35px;
+  }
+
+  .convenio-pet p {
+    color: #006b2c;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .conteudo-plano-pet button {
+    border: none;
+    outline: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 25px;
+    background: rgb(141, 198, 63);
+    background: linear-gradient(
+      278deg,
+      rgba(141, 198, 63, 1) 4%,
+      rgba(0, 166, 81, 1) 94%
+    );
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .convenio-pet h1 {
+    color: #006b2c;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+
+  .conteudo-plano-pet label {
+    width: 70%;
+    color: #006b2c;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  .pet-shop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../imagens/imagem10.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+    padding: 100px;
+  }
+
+  .pet-shop2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../imagens/imagem13.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 650px;
+    padding: 100px;
+  }
+
+  .conteudo-plano-pet2 img {
+    width: 10%;
+  }
+
+  .conteudo-plano-pet2 h1 {
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+  }
+
+  .conteudo-plano-pet2 label {
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  .conteudo-plano-pet2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteudo-plano-pet2 button {
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(141, 198, 63);
+    background: linear-gradient(
+      278deg,
+      rgba(141, 198, 63, 1) 4%,
+      rgba(0, 166, 81, 1) 94%
+    );
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1500px) {
+  .imagem-convenio2 img {
+    width: 70%;
+    display: flex;
+    padding-top: 35px;
+  }
+  .container-pet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../imagens/imagem07.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: 100%;
+    height: 500px;
+    padding: 100px;
+  }
+
+  .title-pet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .title-pet h1 {
+    color: #006b2c;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .convenio-pet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("../../imagens/imagem08.png");
+    background-repeat: no-repeat;
+    background-image: 100%;
+    height: 500px;
+  }
+
+  .conteudo-plano-pet {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-convenio {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagem-convenio img {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 35px;
+  }
+
+  .convenio-pet p {
+    color: #006b2c;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .conteudo-plano-pet button {
+    border: none;
+    outline: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(141, 198, 63);
+    background: linear-gradient(
+      278deg,
+      rgba(141, 198, 63, 1) 4%,
+      rgba(0, 166, 81, 1) 94%
+    );
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .convenio-pet h1 {
+    color: #006b2c;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 35px;
+  }
+
+  .conteudo-plano-pet label {
+    width: 70%;
+    color: #006b2c;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .pet-shop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../imagens/imagem10.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    padding: 100px;
+  }
+
+  .pet-shop2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: url("../../imagens/imagem13.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 100px;
+  }
+
+  .conteudo-plano-pet2 img {
+    width: 10%;
+  }
+
+  .conteudo-plano-pet2 h1 {
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  .conteudo-plano-pet2 label {
+    width: 70%;
+    color: white;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  .conteudo-plano-pet2 {
+    width: 50%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteudo-plano-pet2 button {
+    border: none;
+    outline: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(141, 198, 63);
+    background: linear-gradient(
+      278deg,
+      rgba(141, 198, 63, 1) 4%,
+      rgba(0, 166, 81, 1) 94%
+    );
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-pet {
+    background-position: center;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .title-pet {
+    width: 100%;
+  }
+
+  .container-pet h1 {
+    width: 100%;
+    font-size: 40px;
+    padding-top: 200px;
+  }
+
+  .imagem-convenio {
+    width: 60%;
+  }
+
+  .conteudo-plano-pet {
+    margin-top: 20px;
+    width: 70%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .convenio-pet p {
+    font-size: 15px;
+  }
+
+  .convenio-pet h1 {
+    font-size: 30px;
+  }
+
+  .convenio-pet label {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .convenio-pet button {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .conteudo-plano-pet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .conteudo-plano-pet label {
+    width: 70%;
+  }
+
+  .pet-shop {
+    display: flex;
+    flex-direction: column;
+    background-color: #006b2c;
+    width: 100%;
+    height: 800px;
+    padding: 50px;
+    background-image: none;
+    padding-top: 100px;
+  }
+
+  .conteudo-plano-pet2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .conteudo-plano-pet2 h1 {
+    font-size: 35px;
+  }
+
+  .conteudo-plano-pet2 label {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .conteudo-plano-pet button {
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagem-convenio img {
+    width: 100%;
+  }
+
+  .conteudo-plano-pet2 button {
+    padding: 20px;
+    width: 70%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .convenio-pet {
+    width: 100%;
+    background-color: #e2dddf;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 900px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-pet h1 {
+    width: 100%;
+    font-size: 30px;
+    padding-top: 200px;
+  }
+
+  .pet-shop {
+    width: 100%;
+    padding: 40px;
+    padding-top: 100px;
+  }
+
+  .pet-shop2 {
+    width: 100%;
+    height: 800px;
+    background-image: none;
+    background-color: #558569;
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .conteudo-plano-pet2 button {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .conteudo-plano-pet2 h1 {
+    text-align: center;
+  }
+
+  .imagem-convenio {
+    width: 100%;
+  }
+
+  .imagem-convenio img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+
+  .imagem-convenio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .conteudo-plano-pet label {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .convenio-pet button {
+    width: 80%;
+  }
+
+  .conteudo-plano-pet2 img {
+    width: 30%;
+  }
+
+  .conteudo-plano-pet2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+  .imagem-convenio2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imagem-convenio2 img {
+    width: 100%;
+  }
+
+  .conteudo-plano-pet2 label {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+

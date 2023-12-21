@@ -1,0 +1,208 @@
+.container-contato-unidades{
+    background-image: url('../../imagens/imagem18.png');
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-contato-unidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-contato-unidades h1{
+    font-weight: 900;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 35px;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    color: #006A32;
+}
+
+.unidade-proxima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #006A32;
+}
+
+.unidade-proxima h1{
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.unidade-proxima select{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.informacoes-unidades{
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../imagens/imagem19.png');
+    gap: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.info-geral{
+    margin-top:300px;
+    margin-bottom: 300px;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    gap: 20px;
+}
+
+.infor1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-localizacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #004521;
+}
+
+.contato-localizacao2{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #004521;
+}
+
+.contato-localizacao2 p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.contato-localizacao p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.contato-localizacao2 button{
+    background-color: #004521;
+    color: white;
+    border: none;
+    width: 80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.contato-localizacao button{
+    background-color: #004521;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.icone-localizacao-contato{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-localizacao img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+    .container-contato-unidades{
+        height: 180px;
+    }
+
+    .container-contato-unidades h1{
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .unidade-proxima {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .informacoes-unidades{
+        width: 100%;
+        background-image: none;
+        height: 500px;
+    }
+
+    .infor1{
+        width: 100%;
+    }
+    .unidade-proxima h1{
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .info-geral{
+        display: flex;
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .icone-localizacao-contato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icone-localizacao-contato img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .info-geral{
+        margin-top: 0px;
+        height: 0px;
+    }
+}

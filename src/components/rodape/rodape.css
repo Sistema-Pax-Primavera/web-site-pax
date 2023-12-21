@@ -1,0 +1,200 @@
+.logo-rodape img{
+    width: 50%;
+}
+
+.logo-rodape{
+    width: 30%;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-containers{
+    width: 50%;
+    display: flex;
+    gap: 50px;
+}
+
+.logo-rodape label{
+    color: #006A32;
+    font-weight: 500;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+.container-rodape{
+    
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.menu-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    color: #006A32;
+}
+
+
+.menu-rodape h1{
+    color: #006A32;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.itens-menu-rodape{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-menu-rodape a{
+    color: #006A32;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.div-menus {
+    display: flex;
+    gap: 15px
+}
+
+.atendimento-rodape{
+    width: 18%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.atendimento-rodape h1{
+    color: #006A32;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.div-local{
+    color: #F0E60A;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-uni {
+    display: flex;
+    flex-direction: column;
+    color: #006A32;
+}
+
+.div-uni h1{
+    font-size: 13px;
+}
+
+.espaca-div{
+    gap: 10px;
+}
+
+.area-cliente-home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.area-cli{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tip-atend-uni2 h6{
+    font-size: 13px;
+    color: #006A32;
+    font-weight: 800;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.area-cliente-home h1{
+    font-size: 13px;
+    color: #006A32;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.icones-sociais{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icones-sociais a{
+    color: #006A32;
+
+}
+
+@media (max-width: 768px) {
+    .logo-rodape{
+        padding: 30px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo-rodape label{
+        text-align: center;
+        width: 90%;
+    }
+
+    .container-rodape{
+        padding: 0px;
+    }
+
+    .rodape-containers{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-rodape{
+        align-items: center;
+    }
+
+    .menu-rodape h1{
+        align-items: start;
+    }
+
+    .itens-menu-rodape {
+        justify-content: center;
+    }
+
+    .atendimento-rodape{
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    .area-cliente-home{
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    .menu-rodape{
+        gap: 0px;
+    }
+
+    .container-rodape{
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
